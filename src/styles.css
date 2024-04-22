@@ -16,7 +16,7 @@ body {
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #cc813b;
+  color: #945113;
 }
 
 img {
@@ -30,7 +30,7 @@ i {
 }
 
 nav {
-  background: #f6f5f2;
+  background: black;
   box-shadow: 0 5px 15px #634b01;
 }
 
@@ -64,7 +64,7 @@ a {
 }
 
 .menu a {
-  color: #074173;
+  color: white;
   font-weight: bolder;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
