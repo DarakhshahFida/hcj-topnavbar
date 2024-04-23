@@ -11,11 +11,13 @@ body {
   height: 100vh;
   line-height: 2.2;
   font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+h2 {
+  /* font-size: 3rem;
+  margin-bottom: 1rem; */
   color: #945113;
 }
 
@@ -39,14 +41,13 @@ nav {
   margin: 0 0.2rem 0 0.2rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 210px;
 }
 
 .menu {
@@ -65,7 +66,7 @@ a {
 
 .menu a {
   color: white;
-  font-weight: bolder;
+  font-weight: lighter;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   display: block;
@@ -92,4 +93,15 @@ a {
 #banner1 {
   height: 400px;
   width: 100%;
+}
+
+.footer {
+  background-color: #dfb998;
+  color: #835425;
+  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  margin-left: 0.1rem;
+  margin-top: auto;
+  justify-content: end;
 }
